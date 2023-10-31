@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(./images/hero.jpg);
+    background-size: cover;
+}
+
+@media(max-width:600px){
+    .container{
+        font-size: 0.8rem;
+        line-height: 1;
+        
+}
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav .logo{
+    width: 60px;
+    margin-top: auto;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    
+}
+
+/* pseudo class-to get special effect on mouse hover 
+selector:pseudo-class-name{property:value}*/
+
+nav ul li a:hover{
+    color: red;
+}
+.title{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.title h1{
+    font-size: 50px;
+    color: lime;
+    margin-bottom: 20px;
+}
+
+.title span{
+    color: lawngreen;
+}
+
+.title p{
+    color: orangered;
+    line-height: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.title button{
+    background-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 15px;
+}
+
+
+#contact{
+    
+    margin-left: 48%;
+    margin-top: 13%;
+    margin-right: 8%;
+}
+
+.iconDiv{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.icon i{
+    font-size: 20px;
+}
+
+.icon i:hover{
+    color: rgb(216, 112, 112);
+}
+
+
